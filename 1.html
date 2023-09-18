@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <script src="https://kit.fontawesome.com/54e73dd607.js" crossorigin="anonymous"></script>">
+
+</head>
+<style>
+    body {
+        background: url(New\ folder/img.jpg) no-repeat center center;
+        background-size: cover;
+        background-color: rgb(42, 40, 38);
+    }
+
+    .container {
+
+        position: absolute;
+        top: 35%;
+        left: 36%;
+
+    }
+
+    .container h1 {
+        font-size: 40px;
+        padding: 10px 0px;
+        margin-bottom: 20px;
+        border-bottom: 8px solid rgb(63, 9, 114);
+    }
+
+    .box {
+        width: 100%;
+        border-bottom: 2px solid rgb(63, 9, 114);
+        margin: 30px 0px;
+    }
+    
+
+    .box input {
+        width: 80%;
+        padding: 5px 0px;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        border-radius: 4px;
+        background: none;
+    }
+    
+    .box i {
+        width: 13%;
+        text-align: center;
+        color: white;
+    }
+
+    .btn {
+        background: none;
+        color: white;
+        cursor: pointer;
+        outline: none;
+        width: 20%;
+        font-size: 14px;
+        margin: 12px 0px;
+        padding: 6px;
+        font-weight: bolder;
+        border-radius: 10px;
+        border: 2px solid rgb(63, 9, 114);
+    }
+
+    .btn:hover{
+        color: rgb(36, 2, 94);
+        background: white;
+    }
+</style>
+
+<body>
+    
+    <div class=" container">
+        <h1> Login to Our Website</h1>
+        <form method="post" id="form">
+        <div class="box">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="Email"  placeholder="Enter Your Email" name="email">
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-lock"></i>
+            <input type="Password" placeholder="Enter Your Password" name="password">
+        </div>
+
+        <button class="btn">Sign In</button>
+    </form>
+
+    </div>
+</body>
+
+</html>
